@@ -2,8 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:weightSum="8">
+    android:orientation="vertical">
     <TextView
         android:id="@+id/calculatorScreen"
         android:layout_width="match_parent"
@@ -11,7 +10,7 @@
         android:layout_margin="10dp"
         android:gravity="center|right"
         android:textColor="#000000"
-        android:layout_weight="2"
+        android:layout_weight="4"
         android:textSize="30sp" />
 
     <LinearLayout
@@ -181,12 +180,12 @@
             android:text="1/x"
             android:textSize="25sp" />
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
         android:orientation="horizontal">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -239,6 +238,7 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
